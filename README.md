@@ -6,7 +6,7 @@ In this homework assignment, you will apply your new SQL skills to analyze histo
 # Part 1
 
 ## ERD diagram of databases created
-![erd](https://github.com/mrlegendre/Module_7_Suspicious_Transactions/blob/main/ERD_Suspicious_transactions_module7.png?raw=true)
+![erd](FRAUD_ERD_mod7.png)
 
 Based on the query for under $2 it seems transactions done at restaurants and pubs could be fradulent where as the coffee shop is reasonable to have transactions $2 and lower.
 
@@ -19,13 +19,15 @@ Using hvPlot, create a line plot representing the time series of transactions ov
 
 ## Time Series Transactions for Cardholder 2
  
-![cardholder2](https://raw.githubusercontent.com/mrlegendre/Module_7_Suspicious_Transactions/main/cardholder2.png)
+![cardholder2](cardholder2.png)
+
 
 ## Time Series Transactions for Cardholder 18
-![cardholder18](https://github.com/mrlegendre/Module_7_Suspicious_Transactions/blob/main/Cardholder18.png?raw=true)
+![cardholder18](Cardholder2and18.png)
+
 
 ## Time Series Transactions for Cardholder 2 and 18 
-![card18and2](https://github.com/mrlegendre/Module_7_Suspicious_Transactions/blob/main/Cardholder2and18.png?raw=true)
+![card18and2](cardholder2and18_zoomIN.png)
 
 ## Time Series Transactions for Cardholder 2 and 18 zoomed in
 ![](https://github.com/mrlegendre/Module_7_Suspicious_Transactions/blob/main/cardholder2and18_zoomIN.png?raw=true)
@@ -49,6 +51,8 @@ Using Plotly Express, create a box plot, representing the expenditure data from 
 ## Boxplot representing expediture data from January 2018 to June 2018 for Cardholder ID 25
 
 ![cardholder25](https://github.com/mrlegendre/Module_7_Suspicious_Transactions/blob/main/Monthly_transactions_card_holder25.png?raw=true)
+
+![cardholder_25](\Module_7_Suspicious_Transactions\IMAGES\Monthly_transactions_card_holder25.png)
 
 Are there any outliers for cardholder ID 25? How many outliers are there per month?Do you notice any anomalies? 
 

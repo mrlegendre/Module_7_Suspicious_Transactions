@@ -1,11 +1,27 @@
-# Module_7_Suspicious_Transactions-
-Unit 7 Homework Assignment: Looking for Suspicious Transactions
+# Suspicious_Transactions
 
-In this homework assignment, you will apply your new SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
+In this repository, we will use SQL data analysis to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
+PostgresSQL and Jupyter notebook was utilized for this project
+
+Data files for merchant info, credit card info, transaction info, card holder info are all contained in the Resource folder.
+
+
+### There are 3 main tasks to this project.
+
+1) Data Modeling:
+Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
+
+
+2) Data Engineering: Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
+
+
+3) Data Analysis: Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
 
 # Part 1
 
 ## ERD diagram of databases created
+An Entity Relationship diagram was created below based on the data given to show the relationship among the data.
+
 ![erd](FRAUD_ERD_mod7.png)
 
 Based on the query for under $2 it seems transactions done at restaurants and pubs could be fradulent where as the coffee shop is reasonable to have transactions $2 and lower.
